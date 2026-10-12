@@ -1,0 +1,102 @@
+{
+  "source_rows": 786431,
+  "states": 51,
+  "archive_sha256": "0f7116b59970aea63872b587779627dd2e05218d9b0c116238792e15ee589d46",
+  "verified": true,
+  "http_median_ms": {
+    "baseline": 25.991,
+    "optimized": 2.797
+  },
+  "query_metrics": [
+    {
+      "query_id": "hw2-75ecb9211c2646c297ceaeca80213e05-baseline-1",
+      "query_duration_ms": "26",
+      "read_rows": "786431",
+      "read_bytes": "36589219",
+      "memory_usage": "4254300"
+    },
+    {
+      "query_id": "hw2-75ecb9211c2646c297ceaeca80213e05-baseline-2",
+      "query_duration_ms": "19",
+      "read_rows": "786431",
+      "read_bytes": "36589219",
+      "memory_usage": "4254252"
+    },
+    {
+      "query_id": "hw2-75ecb9211c2646c297ceaeca80213e05-baseline-3",
+      "query_duration_ms": "24",
+      "read_rows": "786431",
+      "read_bytes": "36589219",
+      "memory_usage": "4301764"
+    },
+    {
+      "query_id": "hw2-75ecb9211c2646c297ceaeca80213e05-baseline-4",
+      "query_duration_ms": "20",
+      "read_rows": "786431",
+      "read_bytes": "36589219",
+      "memory_usage": "4254308"
+    },
+    {
+      "query_id": "hw2-75ecb9211c2646c297ceaeca80213e05-baseline-5",
+      "query_duration_ms": "28",
+      "read_rows": "786431",
+      "read_bytes": "36589219",
+      "memory_usage": "4235044"
+    },
+    {
+      "query_id": "hw2-75ecb9211c2646c297ceaeca80213e05-optimized-1",
+      "query_duration_ms": "1",
+      "read_rows": "51",
+      "read_bytes": "7557",
+      "memory_usage": "4232938"
+    },
+    {
+      "query_id": "hw2-75ecb9211c2646c297ceaeca80213e05-optimized-2",
+      "query_duration_ms": "1",
+      "read_rows": "51",
+      "read_bytes": "7557",
+      "memory_usage": "4233546"
+    },
+    {
+      "query_id": "hw2-75ecb9211c2646c297ceaeca80213e05-optimized-3",
+      "query_duration_ms": "1",
+      "read_rows": "51",
+      "read_bytes": "7557",
+      "memory_usage": "4236258"
+    },
+    {
+      "query_id": "hw2-75ecb9211c2646c297ceaeca80213e05-optimized-4",
+      "query_duration_ms": "1",
+      "read_rows": "51",
+      "read_bytes": "7557",
+      "memory_usage": "4234690"
+    },
+    {
+      "query_id": "hw2-75ecb9211c2646c297ceaeca80213e05-optimized-5",
+      "query_duration_ms": "2",
+      "read_rows": "51",
+      "read_bytes": "7557",
+      "memory_usage": "4232810"
+    }
+  ],
+  "storage": [
+    {
+      "table": "state_max",
+      "rows": "51",
+      "compressed_bytes": "1138",
+      "uncompressed_bytes": "2016"
+    },
+    {
+      "table": "transactions",
+      "rows": "786431",
+      "compressed_bytes": "29840135",
+      "uncompressed_bytes": "86762121"
+    },
+    {
+      "table": "transactions_baseline",
+      "rows": "786431",
+      "compressed_bytes": "61282945",
+      "uncompressed_bytes": "134406803"
+    }
+  ]
+}
